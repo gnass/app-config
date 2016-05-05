@@ -5,7 +5,7 @@ security:
 logging:
   level:
     io:
-      pivotal: DEBUG
+      pivotal: INFO
 
 management:
   security:
