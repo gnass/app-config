@@ -1,0 +1,226 @@
+{
+  "customerInfo": {
+    "customer": {
+      "@customerId": "C310000888",
+      "key": [
+        {
+          "@domainName": "CHUB",
+          "keyName": "CHUBID",
+          "keyValue": "1-BVELP"
+        },
+        {
+          "keyName": "Handsetindicator",
+          "keyValue": "SMS"
+        }
+      ],
+      "customerType": "Person",
+      "status": [
+        {
+          "@statusCode": "a",
+          "effectivePeriod": {
+            "startTime": "2016-03-09T16:35:52-08:00"
+          },
+          "reasonCode": "1"
+        }
+      ],
+      "party": {
+        "person": {
+          "personName": {
+            "firstName": "Bradabcdc",
+            "familyName": [
+              "Bloomabcdc"
+            ]
+          },
+          "preferredLanguage": "en",
+          "addressCommunication": [
+            {
+              "@id": "1",
+              "usageContext": [
+                "BILLING",
+                "SHIPPING"
+              ]
+            }
+          ],
+          "phoneCommunication": [
+            {
+              "@id": "1",
+              "phoneType": "MOBILE",
+              "phoneNumber": "4253458948",
+              "areaCode": "1"
+            }
+          ],
+          "emailCommunication": [
+            {
+              "emailAddress": "Bloomabcdc@ymail.com",
+              "usageContext": [
+                "PRIMARY"
+              ]
+            },
+            {
+              "emailAddress": "Bloomabcdc@ymail.com",
+              "usageContext": [
+                "PRIMARY"
+              ]
+            },
+            {
+              "emailAddress": "Bloomabcdc@ymail.com",
+              "usageContext": [
+                "PRIMARY"
+              ]
+            }
+          ],
+          "driversLicense": [
+            {}
+          ],
+          "nationalIdentityDocument": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+          ],
+          "citizenship": [
+            {}
+          ],
+          "passport": [
+            {}
+          ],
+          "visa": [
+            {
+              "classificationCode": {},
+              "status": {}
+            }
+          ],
+          "employment": [
+            {}
+          ],
+          "maritalStatus": "WIDOWED",
+          "securityProfile": {
+            "userName": "U-600d2fb1-f0fd-44a2-88c9-e418ead65fd0",
+            "pin": "1234"
+          }
+        }
+      },
+      "customerGroup": "Consumer",
+      "customerAccount": [
+        {
+          "accountType": {},
+          "businessUnit": "Magenta",
+          "programMembership": [
+            {
+              "programCode": "no",
+              "description": "testIndicator"
+            }
+          ],
+          "financialAccount": [
+            {
+              "financialAccountNumber": "171000996",
+              "accountName": "Account 171000996",
+              "status": [
+                {
+                  "@statusCode": "ACTIVE",
+                  "effectivePeriod": {
+                    "startTime": "2016-03-09T16:35:52-08:00"
+                  },
+                  "reasonCode": "Prepaid Billcycle 09"
+                }
+              ],
+              "billCycle": [
+                {
+                  "@billCycleId": "74"
+                }
+              ]
+            }
+          ],
+          "preferredLanguage": [
+            {
+              "@usageContext": "BILLING",
+              "#text": "en"
+            }
+          ],
+          "idVerificationIndicator": {},
+          "corporateAffiliationProgram": {},
+          "strategicAccountIndicator": {}
+        }
+      ]
+    },
+    "creditDecisionRule": {},
+    "addressList": [
+      {
+        "addressCommunication": [
+          {
+            "@id": "1",
+            "address": {
+              "addressLine2": {},
+              "cityName": "Atlanta",
+              "stateCode": "GA",
+              "countyName": "DeKalb",
+              "countryCode": "USA",
+              "postalCode": "30346",
+              "postalCodeExtension": "2149",
+              "geoCodeID": [
+                {
+                  "@referenceLayer": "9936"
+                }
+              ],
+              "uncertaintyIndicator": "10000",
+              "geographicCoordinates": {
+                "latitude": "033.919666"
+              },
+              "key": [
+                {
+                  "@domainName": "Ericsson",
+                  "keyName": "AddressCharacteristicsId",
+                  "keyValue": "2259"
+                },
+                {
+                  "@domainName": "Ericsson",
+                  "keyName": "AddressSequenceNo",
+                  "keyValue": "1"
+                }
+              ],
+              "timeZone": "UTC-5",
+              "unitNumber": {},
+              "overrideIndicator": "NO",
+              "matchIndicator": {}
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
